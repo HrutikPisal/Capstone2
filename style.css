@@ -1,0 +1,126 @@
+#Header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#Header>h2{
+    margin-top: 30px;
+    font-style: italic;
+}
+
+#Header>img{
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.f-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding-left: 100px;
+    background: linear-gradient(rgba(0, 255, 153, 0.46),rgb(0, 204, 255),white);
+}
+
+
+
+#Header{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 255, 153, 0.46),rgb(0, 204, 255),white);
+}
+
+
+/*  */
+#Skills{
+    background-color:aliceblue;
+    margin: 10px;
+    border-radius: 15px;
+}
+#Skills>h1{
+    text-align: center;
+}
+
+.skill-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    border: solid rgb(42, 161, 165) 10px;
+    margin-left: 150px; 
+    margin-bottom: 10px;     
+}
+
+.skills_d{
+    margin-top: 50px;
+    text-align: center;
+    width: 400px;
+}
+
+.skills{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 10px;
+}
+
+
+.education-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50% ;
+    border: solid rgb(42, 161, 165) 5px;
+}
+
+.Education{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding:10px;
+    
+}
+#Education{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+
+
+
+#Interests{
+    border-radius: 15px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.Interests{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+        
+}
+
+.part{
+    margin: 20px;
+}
+.interest-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid rgb(42, 161, 165) 5px;
+}
+
+#Interests>h1{
+    text-align: center;
+
+}
+
+
+footer{
+    text-align: center;
+    margin-left: 150px;
+}
+
+p{
+    font-weight: 600;
+}
